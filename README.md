@@ -15,6 +15,7 @@ Esse repositório contém o código do backend, que é usado pra persistir os da
 - ![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white)
 - ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 - ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+- ![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white)
 
 ## Instalação
 
@@ -29,6 +30,12 @@ $ npm run start:dev
 ```
 
 Após executar esse comando, o app ficará disponível no endereço: `http://localhost:3000/`
+
+## Swagger
+
+O swagger do projeto está disponível em `http://localhost:3000/api` caso o projeto esteja rodando localmente.
+
+O deploy do projeto está disponível em `https://fuel-bras-backend-production.up.railway.app/` e o seu swagger em `https://fuel-bras-backend-production.up.railway.app/api`
 
 ## Entre en contato
 
