@@ -19,7 +19,7 @@ COPY package*.json ./
 RUN npm ci
 COPY . ./
 
-RUN npm run migrations:run && npm run build && npm prune --production
+RUN npm run migration:run && npm run build && npm prune --production
 
 FROM node:16.16.0-alpine
 
